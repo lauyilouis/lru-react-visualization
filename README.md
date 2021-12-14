@@ -1,5 +1,33 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+# LRU (Least Recently Used) Cache Visualization Playground
+This is a React.js and Redux.js project for visualizing the LRU Cache implementation. Using `@testing-library/react` for unit testing.
+
+Data structure used: Hashtable + Doubly Linked List  
+Time Complexitiy for add operation: O(1)  
+Time Complexitiy for print operation: O(n)  
+Space Complexitiy: O(n)
+
+Instead of using normal `ListNode` class, to support redux serialization nature, a serizlized version of doubly linked list is implemented at redux store.
+
+Example:
+```
+{
+  store: {
+    "Chocolate": {
+      next: "Apple",
+      prev: null,
+    },
+    "Apple": {
+      next: "null",
+      prev: "Chocolate",
+    },
+  },
+  head: "Chocolate",
+  tail: "Apple"
+}
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -16,6 +44,9 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `yarn test-ci`
+
+Launches the test runner in the non-interactive mode.<br />
 
 ### `yarn build`
 
