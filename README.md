@@ -1,5 +1,5 @@
 # LRU (Least Recently Used) Cache Visualization Playground
-Codesandbox (Live IDE): https://codesandbox.io/s/withered-https-g4s9n
+Codesandbox (Live IDE): https://codesandbox.io/s/lru-react-visualization-g4s9n
  
 This is a React.js and Redux.js project for visualizing the LRU Cache implementation. Using `@testing-library/react` for unit testing.
 
