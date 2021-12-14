@@ -8,7 +8,7 @@ Time Complexitiy for add operation: O(1)
 Time Complexitiy for print operation: O(n)  
 Space Complexitiy: O(n)
 
-Instead of using normal `ListNode` class, to support redux serialization nature, a serizlized version of doubly linked list is implemented at redux store.
+Instead of using normal `ListNode` class, to support redux serialization nature, a serialized version of doubly linked list is implemented at redux store.
 
 Example:
 ```
