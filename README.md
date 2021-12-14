@@ -1,6 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
-
 # LRU (Least Recently Used) Cache Visualization Playground
+Codesandbox (Live IDE): https://codesandbox.io/s/withered-https-g4s9n
+ 
 This is a React.js and Redux.js project for visualizing the LRU Cache implementation. Using `@testing-library/react` for unit testing.
 
 Data structure used: Hashtable + Doubly Linked List  
